@@ -1,0 +1,31 @@
+{
+  "name": "unserialize",
+  "version": "1.0.0",
+  "description": "Node.js port of PHP's unserialize.",
+  "main": "es5.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register",
+    "prepublish": "babel --out-file es5.js --stage 0 index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abrkn/unserialize.git"
+  },
+  "keywords": [
+    "php",
+    "unserialize"
+  ],
+  "author": "Andreas Brekken <andreas@brekken.co>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abrkn/unserialize/issues"
+  },
+  "homepage": "https://github.com/abrkn/unserialize#readme",
+  "devDependencies": {
+    "babel": "5.5.8",
+    "mocha": "2.2.5"
+  },
+  "dependencies": {
+    "lodash": "3.9.3"
+  }
+}
