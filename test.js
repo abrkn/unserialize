@@ -1,6 +1,6 @@
 /* global describe, it */
 import expect from 'expect.js';
-import unserialize from '.';
+import unserialize from './index.js';
 
 describe('unserialize', () => {
     it('can read null', () => {
