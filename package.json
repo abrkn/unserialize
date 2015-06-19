@@ -23,6 +23,7 @@
   "homepage": "https://github.com/abrkn/unserialize#readme",
   "devDependencies": {
     "babel": "5.5.8",
+    "expect.js": "0.3.1",
     "mocha": "2.2.5"
   },
   "dependencies": {
